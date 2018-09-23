@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    background-color: white;
+    text-align: right;
+    padding: 5em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: gray;
+    padding: 1.5em;
+    text-decoration: none;
+    font-family: arial;
+}
+
+nav li a:hover {
+    background-color: gray;
+    color: #233647;
+}
+
+.fleft {
+    float: left;
+}
+
+
+.imglogo {
+    padding: 0;
+    height: 5em;
+}
+
+.imgcenter1 {
+    margin: 0 auto;
+}
+
+.bg1 {
+    background-image: url("img/banner.jpg");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    height: 40em;
+}
+
+.white {
+    text-align: center;
+    color: white;
+    padding-top: 5em;
+}
+
+.btnVerProyecto {
+    margin-top: 2em;
+    margin-left: 54em;
+}
+
+
+.nav2 {
+    color: gray;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.gray {
+    color: gray;
+    padding-top: 1.5em;
+
+}
+
+.nav2 li {
+    padding-right: 1.5em;
+}
+
+.pInfo {
+    padding: 2em;
+}
+
+/* .firstrow,
+.secondrow {
+    overflow: auto;
+} */
+
+
+.fright {
+    float: right;
+}
+
+.sizebox {
+    margin: 0;
+    width: 25%;
+}
+
+.mision {
+    width: 50%;
+}
+
+.vision {
+    width: 50%;
+}
+
+
+@media (max-width: 767px) {
+    .btnVerProyecto {
+        margin-top: 2em;
+        margin-left: 12.5em;
+    }
+
+    .firstrow,
+    .secondrow {
+        padding-left: 3em;
+    }
+}
