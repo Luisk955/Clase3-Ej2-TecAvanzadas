@@ -11,8 +11,12 @@
 
 html {
     font-family: "Lucida Console", Monaco, monospace;
-}
+    background-color: #F5F5F5;
 
+}
+.pTop{
+    padding-top:3em;
+}
 
 
 /* Main nav */
@@ -39,7 +43,6 @@ nav li a {
     } */
 
 .imglogo {
-    padding: 0;
     height: 5em;
 }
 
@@ -70,15 +73,28 @@ nav li a {
 }
 
 .white {
-    text-align: center;
     color: white;
-    padding-top: 5em;
 }
 
 .btnVerProyecto {
-    margin-top: 2em;
-    margin-left: 47em;
+    margin-top: 4em;
+    margin-left: 42.5em;
+    background-color: #F8F8F8;
+    outline: none;
+    border-color: white;
+    border-width: 0.1em;
+    padding: 1em 5em;
+    border-radius: 1em;
+
 }
+
+/*    background-color: transparent;
+    outline: none;
+    color: white;
+    border-color: white;
+    border-width: 0.1em;
+    padding: 1em;
+    border-radius: 0.5em;*/
 
 /*Section 1*/
 
@@ -86,7 +102,8 @@ nav li a {
 
 .nav2 {
     color: gray;
-    text-align: center;
+    background-color: #F5F5F5;
+
 }
 
 .center {
@@ -95,8 +112,6 @@ nav li a {
 
 .gray {
     color: gray;
-    padding-top: 1.5em;
-
 }
 
 .nav2 li {
@@ -105,6 +120,14 @@ nav li a {
 
 .sizebox {
     width: 25%;
+}
+
+.lstImg {
+    width: 20%;
+}
+.txtProject{
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 /*Section 2*/
@@ -138,7 +161,14 @@ nav li a {
 
 .btnSion {
     margin: 2em;
-    margin-left: 48em;
+    margin-left: 45em;
+    background-color: transparent;
+    outline: none;
+    border-color: black;
+    color: black;
+    border-width: 0.1em;
+    padding: 1em 3em;
+    border-radius: 0.5em;
 }
 
 /*Section 3*/
@@ -245,7 +275,7 @@ nav li a {
 @media (max-width: 767px) {
     .btnVerProyecto {
         margin-top: 2em;
-        margin-left: 13.5em;
+        margin-left: 8.5em;
     }
 
     .firstrow,
@@ -261,7 +291,7 @@ nav li a {
 
     .btnSion {
         margin-top: 2em;
-        margin-left: 15em;
+        margin-left: 12em;
     }
 
     .sizebox {
