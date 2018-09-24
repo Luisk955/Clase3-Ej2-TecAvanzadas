@@ -9,6 +9,13 @@
     clear: both;
 }
 
+html {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+
+/* Main nav */
 nav {
     background-color: white;
     text-align: right;
@@ -26,21 +33,27 @@ nav li a {
     font-family: arial;
 }
 
-nav li a:hover {
-    background-color: gray;
-    color: #233647;
-}
-
-.fleft {
-    float: left;
-}
-
+/* nav li a:hover {
+        background-color: gray;
+        color: #233647;
+    } */
 
 .imglogo {
     padding: 0;
     height: 5em;
 }
 
+/*Main nav*/
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+/*Section 1*/
 .imgcenter1 {
     margin: 0 auto;
 }
@@ -64,9 +77,12 @@ nav li a:hover {
 
 .btnVerProyecto {
     margin-top: 2em;
-    margin-left: 54em;
+    margin-left: 47em;
 }
 
+/*Section 1*/
+
+/*Section 2*/
 
 .nav2 {
     color: gray;
@@ -87,6 +103,13 @@ nav li a:hover {
     padding-right: 1.5em;
 }
 
+.sizebox {
+    width: 25%;
+}
+
+/*Section 2*/
+
+/*Section 3*/
 .pInfo {
     padding: 2em;
 }
@@ -96,16 +119,6 @@ nav li a:hover {
     overflow: auto;
 } */
 
-
-.fright {
-    float: right;
-}
-
-.sizebox {
-    margin: 0;
-    width: 25%;
-}
-
 .mision {
     width: 50%;
 }
@@ -114,15 +127,188 @@ nav li a:hover {
     width: 50%;
 }
 
+.imgSion {
+    margin-left: 11em;
+    margin-bottom: 2em;
+}
+
+.h2Sion {
+    margin-bottom: 1em;
+}
+
+.btnSion {
+    margin: 2em;
+    margin-left: 48em;
+}
+
+/*Section 3*/
+
+/*Section 4*/
+.testimonios {
+    background-image: url("img/testimonio.jpg");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    height: 23em;
+}
+
+.quote {
+    width: 12%;
+    margin: 3em;
+}
+
+.txtTest {
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 3em;
+}
+
+/*Section 4*/
+
+/*Footer*/
+.bgImgFoot {
+    background-image: url("/img/footer.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    height: 37em;
+}
+
+/*Empresas */
+.imgEmp {
+    margin: 4em;
+    margin-left: 8em;
+}
+
+.imgEmp2 {
+    margin-top: 0em;
+    margin-left: 13em;
+    margin-right: 0em;
+    margin-bottom: 2em;
+}
+
+/*Empresas */
+/*Redes Sociales*/
+
+.hrRedes {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.groupTwo {
+    margin-left: 5em;
+}
+
+.imgSocial {
+    width: 15%;
+}
+
+.imagesSocial {
+    margin-top: 1em;
+    margin-left: 34em;
+}
+
+/*Redes Sociales*/
+/*Contacto*/
+
+.infoContact {
+    margin-right: 10em;
+}
+
+.pFooter {
+    margin-top: 18em;
+}
+
+.logoFooter {
+    width: 15%;
+    margin-top: 16em;
+    margin-left: 12em;
+}
+
+.white2 {
+    color: white;
+}
+
+.mImgFoot {
+    margin-right: 0.5em;
+}
+
+/*Contacto*/
+/*Footer*/
 
 @media (max-width: 767px) {
     .btnVerProyecto {
         margin-top: 2em;
-        margin-left: 12.5em;
+        margin-left: 13.5em;
     }
 
     .firstrow,
     .secondrow {
         padding-left: 3em;
+    }
+
+    .txtTest {
+        padding-top: 1em;
+        padding-right: 0em;
+        padding-left: 0em;
+    }
+
+    .btnSion {
+        margin-top: 2em;
+        margin-left: 15em;
+    }
+
+    .sizebox {
+        width: 100%;
+    }
+
+    .mision {
+        width: 100%;
+    }
+
+    .vision {
+        width: 100%;
+    }
+
+    .imgSion {
+        margin-left: 3em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .quote {
+        width: 8%;
+    }
+
+    .imgEmp2 {
+        margin: 4em;
+        margin-left: 3em;
+    }
+
+    .emp {
+        margin-left: 2em;
+    }
+
+
+    .logoFooter {
+        width: 50%;
+        margin-top: 10em;
+        margin-left: 7em;
+    }
+
+
+    .mImgFoot {
+        margin-right: 0em;
+    }
+
+    .pFooter {
+        margin: 0 auto;
+        margin-top: 3em;
     }
 }
